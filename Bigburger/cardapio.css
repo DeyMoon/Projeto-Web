@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: Titulos;
+    src: url(Heavitas.ttf);
+  }
+  @font-face {
+    font-family: nav;
+    src: url(Rokiest-Regular.otf);
+  }
+  
+        header {
+            background-color: #6b2d1a;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        h1{
+           font-family: Titulos;
+            text-align: center;
+            font-size: 30px;
+            
+        
+        }
+        h2{
+            font-size: 50px;
+            line-height:40px;
+            
+        }
+        nav {
+            background-color: #6b2d1a;
+            padding: 10px;
+    
+            
+        }
+        nav a {
+            font-family:nav;
+            color: white;
+            text-decoration: none;
+            margin: 0 40px;
+            letter-spacing: 2px;
+            
+
+            
+        }
+
+            
+
+       
+        footer {
+            background-color: #47160e;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0px;
+        }
+        .menu {
+            max-width: 900px;
+            margin-right: 50px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 70px;
+        }
+        h1 {
+            text-align: center;
+            color: #e67e22;
+        }
+        .item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .name {
+            font-weight: bold;
+            font-size: 1.2em;
+            flex: 1;
+        }
+        .price {
+            color: #47160e;
+        }
+        
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #6b2d1a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #6b2d1a;
+        }
+        
+        input[type="checkbox"] {
+            margin-right: 0px;
+        }
+        
+        input:focus, select:focus {
+            border-color: #007bff;
+            outline: none;
+
+        }
+
+        #promocao{
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+            margin-right: 50px;
+            margin-bottom: 150px;
+            
+        
+        
+        }

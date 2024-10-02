@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Big Burger</title>
+    <link rel="stylesheet" href="cardapio.css">
+
+</head>
+
+<body>
+
+
+    <nav>
+        <img src="c:\Ads\Html\Bigburger\Imagens\Nav\1-removebg-preview-fotor-20240930211617.png">
+        <a href="index.html"> Início </a>
+        <a href="Quem_somos.html"> Quem somos </a>
+        <a href="c:\Ads\Html\Bigburger\cardapio.html"> Cardápio </a>
+    </nav>
+
+    <main>
+        <div id="promocao">
+
+            <div class="menu">
+                <h1>Cardápio</h1>
+
+                <h2>Hambúrgueres</h2>
+                <div class="item">
+                    <img style="width: 50px; height: 50px; margin-right: 10px;"
+                        src="c:\Ads\Html\Bigburger\Imagens\simples.jpg">
+                    <span class="name">BigBoy</span>
+                    <span class="price">R$ 28,00</span>
+                </div>
+                <div class="item">
+                    <img style="width: 50px; height: 50px; margin-right: 10px;"
+                        src="c:\Ads\Html\Bigburger\Imagens\queijo.jpg">
+                    <span class="name">BigCheese</span>
+                    <span class="price">R$ 32,00</span>
+                </div>
+                <div class="item">
+                    <img style="width: 50px; height: 50px; margin-right: 10px;"
+                        src="c:\Ads\Html\Bigburger\Imagens\bacon.jpg">
+                    <span class="name">BigBacon</span>
+                    <span class="price">R$ 39,90</span>
+                </div>
+                <div class="item">
+                    <img style="width: 50px; height: 50px; margin-right: 10px;"
+                        src="c:\Ads\Html\Bigburger\Imagens\vegano.jpg">
+                    <span class="name">BigVegano</span>
+                    <span class="price">R$ 27,00</span>
+                </div>
+
+                <h2>Batatas</h2>
+                <div class="item">
+                    <img style="width: 50px; height: 50px; margin-right: 10px;"
+                        src="c:\Ads\Html\Bigburger\Imagens\batata.jpg">
+                    <span class="name">Batata Frita</span>
+                    <span class="price">R$ 15,00</span>
+                </div>
+                <div class="item">
+                    <img style="width: 50px; height: 50px; margin-right: 10px;"
+                        src="c:\Ads\Html\Bigburger\Imagens\batatarustica.jpg">
+                    <span class="name">Batata Rústica</span>
+                    <span class="price">R$ 18,00</span>
+                </div>
+                <div class="item">
+                    <img style="width: 50px; height: 50px; margin-right: 10px;"
+                        src="c:\Ads\Html\Bigburger\Imagens\batatacheddar.jpg">
+                    <span class="name">Batata Cheddar</span>
+                    <span class="price">R$ 20,00</span>
+                </div>
+            </div>
+
+
+
+
+            <div class="container">
+                <h2>Cadastre-se para receber novas promoções</h2>
+                <form action="submit.php" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nascimento">Data de Nascimento</label>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="genero">Gênero</label>
+                        <select id="genero" name="genero">
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="termos" name="termos" required>
+                        <label for="termos">Aceito os termos e condições</label>
+                    </div>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Rio de Janeiro - RJ, 23585-600
+            Bigburger, 2024 <br> Todos os direitos reservados - Política de privacidade</p>
+    </footer>
+</body>
+
+</html>

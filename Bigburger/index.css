@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: Titulos;
+    src: url(Heavitas.ttf);
+  }
+  @font-face {
+    font-family: paragrafo;
+    src: url(MADECarvingSoftPERSONALUSE-Black.otf);
+  }
+  @font-face {
+    font-family: nav;
+    src: url(Rokiest-Regular.otf);
+  }
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #6b2d1a;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        h1{
+           font-family: Titulos;
+            text-align: center;
+            font-size: 30px;
+            
+        
+        }
+        h2{
+            font-size: 50px;
+            line-height:40px;
+            
+        }
+        nav {
+            background-color: #6b2d1a;
+            padding: 10px;
+    
+            
+        }
+        nav a {
+            font-family:nav;
+            color: white;
+            text-decoration: none;
+            margin: 0 40px;
+            letter-spacing: 2px;
+            
+        }
+
+        #container{
+            display: flex;
+            align-items: center;
+        }
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #47160e;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        div{
+            
+            display: flex;
+            justify-content: center;
+
+        }
+        h6{
+            font-family: paragrafo;
+            font-size: 30px;
+            text-align: left;
+            margin-right: auto;
+            background-color: #e2a67f;
+            border-radius: 10px;
+
+
+        }
+        h5{
+            font-family: paragrafo;
+            font-size: 35px;
+            text-align: right;
+            margin-left: auto;
+            background-color: #e2a67f;
+            border-radius: 10px;}
+    
